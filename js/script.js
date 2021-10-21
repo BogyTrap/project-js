@@ -37,7 +37,7 @@ console.log(incr, decr); */
     isClosed = true;
 console.log(isChecked && isClosed); */
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+/* const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -58,4 +58,37 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 
-console.log(personalMovieDB);
+console.log(personalMovieDB); */
+
+//Условия:
+
+/* if (4 == 9) {
+    console.log('Ok!');
+} else {
+    console.log('Error');
+}
+
+const num = 50;
+
+if (num < 49) {
+    console.log('Error!');
+} else if (num > 100) {
+    console.log('A lot!')
+} else {
+    console.log('Right!')
+}
+
+switch (num) {
+    case 49:
+        console.log('Mistake');
+        break;
+    case 100:
+        console.log('Mistake');
+        break;
+    case 50:
+        console.log('Right');
+        break;
+    default:
+        console.log('Not that time');
+        break;
+} */
