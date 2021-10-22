@@ -120,3 +120,76 @@ for (let i = 1; i < 10; i++) {
 
     console.log(i);
 } */
+
+/* //Функции:
+
+//1 - Function declaration: 
+let num = 20;
+
+function showFirstMessage(text) {
+    console.log('text');
+    let num = 10;
+}
+
+showFirstMessage("Hello world!");
+console.log(num);
+
+function calc(a, b) {
+    return (a + b);
+}
+
+console.log(calc(4, 5));
+console.log(calc(7, 3));
+console.log(calc(24, 8));
+
+function ret() {
+    let num = 50;
+    return num;
+}
+
+const anotherNum = ret();
+console.log(anotherNum);
+
+//2 - function expression:
+
+const logger = function() {
+    console.log("Hello!");
+};
+
+logger();
+
+//3 - Стрелочные функции:
+
+const calcular = (a, b) => {
+    console.log("1");
+    return a + b;
+}; */
+
+/* //Методы и свойства строк и чисел: 
+
+const str = "test";
+const arr = [1, 2, 6];
+
+console.log(str.length);
+console.log(str[2]);
+
+console.log(str.toUpperCase());
+console.log(str);
+
+const fruit = "Some fruit";
+console.log(fruit.indexOf("fruit"));
+
+const logg = "Hello world";
+
+console.log(logg.slice(6, 11));
+
+console.log(logg.substring(6, 11));
+
+console.log(logg.substr(6, 5));
+
+const num = 12.5;
+console.log(Math.round(num));
+
+const test = "12.2px";
+console.log(parseInt(test));
+console.log(parseFloat(test)); */
